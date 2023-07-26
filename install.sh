@@ -1,13 +1,13 @@
 apt update
-apt upgrade
-apt install git
-apt install python
-apt install python3-pip
-apt install python-requests
-apt install python-dnspython
-apt install python-argparse
-apt-get install jq nmap phantomjs npm chromium parallel
-apt install dnsrecon
+apt -y upgrade
+apt -y install git
+apt -y install python
+apt -y install python3-pip
+apt -y install python-requests
+apt -y install python-dnspython
+apt -y install python-argparse
+apt-get -y install jq nmap phantomjs npm chromium parallel
+apt -y install dnsrecon
 npm i -g wappalyzer wscat
 
 wget https://go.dev/dl/go1.20.6.linux-amd64.tar.gz
