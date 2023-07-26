@@ -6,7 +6,7 @@ apt -y install python3-pip
 apt -y install python-requests
 apt -y install python-dnspython
 apt -y install python-argparse
-apt-get -y install jq nmap phantomjs npm chromium parallel
+apt-get -y install jq nmap npm chromium parallel
 apt -y install dnsrecon
 npm i -g wappalyzer wscat
 
