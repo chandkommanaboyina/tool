@@ -26,8 +26,8 @@ pip install bbot
 
 go install -v github.com/owasp-amass/amass/v3/...@master
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-go get -u github.com/tomnomnom/assetfinder
-go get -u github.com/tomnomnom/httprobe
+go install -u github.com/tomnomnom/assetfinder
+go install -u github.com/tomnomnom/httprobe
 go install github.com/gwen001/github-subdomains@latest
 
 git clone https://github.com/aboul3la/Sublist3r.git
