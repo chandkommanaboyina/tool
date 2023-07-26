@@ -13,7 +13,9 @@ EOF
 
 source ~/.profile
 
-go install -v github.com/owasp-amass/amass/v4/...@master
+go install -v github.com/owasp-amass/amass/v3/...@master
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
 
 
 
